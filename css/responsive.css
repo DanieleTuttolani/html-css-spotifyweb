@@ -47,4 +47,17 @@
 }
 
 /*! 990PX**************************************************************/
+@media screen and (min-width:975px){
+    .container{
+        max-width: 990px;
+    }
+    .category-wrapper{
+        max-width: 700px;
+    }
+}
 /*! 1200PX**************************************************************/
+@media screen and (min-width:1180px){
+    .container{
+        max-width: 100%;
+    }
+}

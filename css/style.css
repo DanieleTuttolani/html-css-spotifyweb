@@ -17,7 +17,7 @@ ul{
 a{
     text-decoration: none ;
 }
-/*! UTILITIES*******************************************************/
+/*? UTILITIES*******************************************************/
 .flex{
     display: flex;
 }
@@ -80,9 +80,6 @@ nav{
 .playlists{
     display: none;
 }
-
-
-
 .add-play{
     align-items:center ;
 }
@@ -112,6 +109,23 @@ nav{
     letter-spacing: 2px;
     padding: 10px 65px;
     border-radius: 30px;
+}
+/*!CATEGOIE**************************************************************/
+.category{
+    text-transform: capitalize;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    text-align: center;
+    margin-top: 15px;
+}
+.category p{
+  color: gray;
+  margin-right: 15px;
+  font-size: 19px;
+}
+.category-wrapper{
+    max-width: 480px;
+    margin: auto;
 }
 /*!FOOTER***********************************************************************/
 footer{
