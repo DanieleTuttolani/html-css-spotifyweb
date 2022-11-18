@@ -1,23 +1,40 @@
 
-/*!GENERALE*********************************************/
-
-
+/*!GENERALE*************************************************************/
 *{
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-
+    color: white;
 }
 
 .container{
     max-width: 580px;
     margin: auto;
 }
+ul{
+    list-style-type: none;
+}
 /*! UTILITIES*******************************************************/
 .flex{
     display: flex;
 }
-/*!MAIN*/
+img{
+    max-width: 100%;
+}
+.column-dir{
+    flex-direction: column;
+}
+.pad-s{
+    padding: 10px;
+}
+.mar-s{
+    margin: 10px;
+}
+.marb-s{
+    margin-bottom: 10px;
+}
+
+/*!MAIN***************************************************************/
 main{
     background-color: wheat;
     width: 100%;
@@ -25,22 +42,65 @@ main{
 }
 .main-body{
     background-color: blue;
-    height: calc(100vh - 150px);
+    height: calc(100vh - 100px);
 }
-/*!HEADER*/
+/*!HEADER********************************************************************/
 header{
     min-height: 100px;
     background-color: rgba(0, 0, 0, 0.349);
 }
-/*!NAV*/
+/*!NAV***************************************************************/
 nav{
-    max-width: 150px;
     height: 100%;
     background-color: black;
-    width: 100px;
+    width: 70px;
+    flex-direction: column;
+    justify-content: space-between;
 }
-/*!FOOTER*/
+.logo-icon,.house-icon,.search-icon,.library-icon{
+    height: 35px;
+}
+.logo-bigger{
+    display: none;
+    height: 50px;
+}
+.logo-txt p{
+    display: none;
+    margin-left: 10px;
+}
+.dowload-icon,.profile-icon{
+    height: 27px;
+}
+/*!PLAYLISTS********************************************************/
+
+.playlists{
+    display: none;
+}
+
+
+
+.add-play{
+    align-items:center ;
+}
+.add{
+    height: 45px;
+    width: 45px;
+    background-color: gray;
+    text-align: center;
+    font-size: 45px;
+    line-height: 45px;
+    margin-right: 5px;
+}
+.new-lists{
+    overflow-y: scroll;
+    height: 300px;
+    margin-top: 15px;
+}
+.new-lists>li{
+    margin: 10px 0;
+}
+/*!FOOTER***********************************************************************/
 footer{
-    min-height: 150px;
+    min-height: 100px;
     background-color: gray;
 }
