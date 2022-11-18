@@ -36,6 +36,9 @@ img{
 .marb-s{
     margin-bottom: 10px;
 }
+.img-max{
+    width: 100%;
+}
 
 /*!MAIN***************************************************************/
 main{
@@ -79,6 +82,10 @@ nav{
 /*!PLAYLISTS********************************************************/
 .playlists{
     display: none;
+}
+.play-body{
+    position: relative;
+    bottom: 70px;
 }
 .add-play{
     align-items:center ;
@@ -126,6 +133,22 @@ nav{
 .category-wrapper{
     max-width: 480px;
     margin: auto;
+}
+/*!ALBUMS E AUTORI**************************************************/
+.albums{
+    padding: 12px
+}
+.album-titolo h2{
+    font-size: 30px;
+}
+.album-row{
+    flex-wrap: wrap;
+}
+.album-row .album-card{
+    height: 200px;
+    width: calc(100% / 2 - 20px);
+    border: 2px solid black;
+    margin: 10px;
 }
 /*!FOOTER***********************************************************************/
 footer{
