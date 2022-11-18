@@ -1,0 +1,46 @@
+
+/*!GENERALE*********************************************/
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+.container{
+    max-width: 580px;
+    margin: auto;
+}
+/*! UTILITIES*******************************************************/
+.flex{
+    display: flex;
+}
+/*!MAIN*/
+main{
+    background-color: wheat;
+    width: 100%;
+    overflow-y: auto;
+}
+.main-body{
+    background-color: blue;
+    height: calc(100vh - 150px);
+}
+/*!HEADER*/
+header{
+    min-height: 100px;
+    background-color: rgba(0, 0, 0, 0.349);
+}
+/*!NAV*/
+nav{
+    max-width: 150px;
+    height: 100%;
+    background-color: black;
+    width: 100px;
+}
+/*!FOOTER*/
+footer{
+    min-height: 150px;
+    background-color: gray;
+}
