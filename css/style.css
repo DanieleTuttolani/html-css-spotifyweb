@@ -14,6 +14,9 @@
 ul{
     list-style-type: none;
 }
+a{
+    text-decoration: none ;
+}
 /*! UTILITIES*******************************************************/
 .flex{
     display: flex;
@@ -48,6 +51,8 @@ main{
 header{
     min-height: 100px;
     background-color: rgba(0, 0, 0, 0.349);
+    align-items: center;
+    justify-content:flex-end;
 }
 /*!NAV***************************************************************/
 nav{
@@ -72,7 +77,6 @@ nav{
     height: 27px;
 }
 /*!PLAYLISTS********************************************************/
-
 .playlists{
     display: none;
 }
@@ -98,6 +102,16 @@ nav{
 }
 .new-lists>li{
     margin: 10px 0;
+}
+/*!HEADER************************************************************/
+.upgrade-btn{
+    border: 1px solid white;
+    background-color: rgba(0, 0, 0, 0.349);
+    font-size: 15px;
+    text-decoration: none;
+    letter-spacing: 2px;
+    padding: 10px 65px;
+    border-radius: 30px;
 }
 /*!FOOTER***********************************************************************/
 footer{
