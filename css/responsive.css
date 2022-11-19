@@ -51,10 +51,11 @@
     .container{
         max-width: 990px;
     }
+    /*categorie***************************************************************/
     .category-wrapper{
         max-width: 700px;
     }
-
+    /*album e artisti**********************************************/
     .album-row .album-card{
         width: calc(100% / 4 - 20px);
     }
@@ -64,6 +65,7 @@
     .container{
         max-width: 100%;
     }
+    /*album e artisti******************************************/
     .album-row .album-card{
         width: calc(100% / 6 - 20px);
     }

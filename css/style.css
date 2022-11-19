@@ -39,6 +39,9 @@ img{
 .img-max{
     width: 100%;
 }
+.rounded{
+    border-radius: 50%;
+}
 
 /*!MAIN***************************************************************/
 main{
@@ -140,15 +143,19 @@ nav{
 }
 .album-titolo h2{
     font-size: 30px;
+    margin-top: 15px;
 }
 .album-row{
     flex-wrap: wrap;
 }
 .album-row .album-card{
-    height: 200px;
+    min-height: 200px;
     width: calc(100% / 2 - 20px);
     border: 2px solid black;
     margin: 10px;
+}
+.album-info{
+    text-align: center;
 }
 /*!FOOTER***********************************************************************/
 footer{
