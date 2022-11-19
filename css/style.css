@@ -5,6 +5,7 @@
     margin: 0;
     box-sizing: border-box;
     color: white;
+    font-family: 'Montserrat', sans-serif;
 }
 
 .container{
@@ -45,12 +46,11 @@ img{
 
 /*!MAIN***************************************************************/
 main{
-    background-color: wheat;
+    background-color: #141922;
     width: 100%;
     overflow-y: auto;
 }
 .main-body{
-    background-color: blue;
     height: calc(100vh - 100px);
 }
 /*!HEADER********************************************************************/
@@ -59,6 +59,19 @@ header{
     background-color: rgba(0, 0, 0, 0.349);
     align-items: center;
     justify-content:flex-end;
+    position: sticky;
+    top: 0;
+    right: 0;
+    left: 0;
+}
+.upgrade-btn{
+    border: 1px solid white;
+    background-color: rgba(0, 0, 0, 0.349);
+    font-size: 15px;
+    text-decoration: none;
+    letter-spacing: 2px;
+    padding: 10px 65px;
+    border-radius: 30px;
 }
 /*!NAV***************************************************************/
 nav{
@@ -110,16 +123,6 @@ nav{
 .new-lists>li{
     margin: 10px 0;
 }
-/*!HEADER************************************************************/
-.upgrade-btn{
-    border: 1px solid white;
-    background-color: rgba(0, 0, 0, 0.349);
-    font-size: 15px;
-    text-decoration: none;
-    letter-spacing: 2px;
-    padding: 10px 65px;
-    border-radius: 30px;
-}
 /*!CATEGOIE**************************************************************/
 .category{
     text-transform: capitalize;
@@ -151,7 +154,6 @@ nav{
 .album-row .album-card{
     min-height: 200px;
     width: calc(100% / 2 - 20px);
-    border: 2px solid black;
     margin: 10px;
 }
 .album-info{
@@ -160,5 +162,76 @@ nav{
 /*!FOOTER***********************************************************************/
 footer{
     min-height: 100px;
-    background-color: gray;
+    background-color: #282828;
+}
+.sides{
+    min-width: calc(100% / 3);
+    border: 1px solid red;
+}
+.playing{
+    height: 100%;
+    align-items: center;
+}
+.playing-icon{
+    height: 50px;
+}
+.relative-txt{
+    font-size: 13px;
+    padding: 10px 5px;
+}
+.action-on-subject{
+    flex-direction: column;
+    margin-left: 10px;
+}
+.main-foot{
+    flex-direction: column;
+    min-width: calc(100% / 3);
+    justify-content: center;
+}
+.circle{
+    height: 30px;
+    width: 30px;
+    background-color: rgba(255, 255, 255, 0);
+    border: 2px solid white;
+    position: relative;
+    top: -5px;
+}
+.fa-play{
+    transform: translate(7px , 1px);
+}
+.player{
+    justify-content: space-evenly;
+    font-size: 20px;
+}
+.barra-body{
+    margin: 0 15px;
+}
+.barra-body>*{
+    font-size: 12px;
+}
+.progress-bar{
+    height: 5px;
+    width: 100%;
+    background-color: #5a5a5a;
+    margin: 0 5px;
+    align-self: center;
+    border-radius: 15px;
+}
+.actual-progress{
+    background-color: #fff;
+    width: 30%;
+    margin: 0;
+}
+.right{
+    align-items: center;
+    justify-content: flex-end;
+}
+.volume-bar{
+    min-width: 100%;
+}
+.action-list{
+    align-items: center;
+}
+.action-list i{
+    margin-left: 10px;
 }
