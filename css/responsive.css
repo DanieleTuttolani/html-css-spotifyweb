@@ -65,6 +65,11 @@
     .container{
         max-width: 100%;
     }
+    /*categorie********************************************************/
+    .category-wrapper{
+        max-width: 730px;
+        
+    }
     /*album e artisti******************************************/
     .album-row .album-card{
         width: calc(100% / 6 - 20px);
